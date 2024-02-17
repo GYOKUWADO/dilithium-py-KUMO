@@ -74,7 +74,7 @@ the file [`dilithium.py`](dilithium.py)
 Additionally, the class has been initialised with these default parameters, 
 so you can simply import the NIST level you want to play with:
 
-#### Example
+#### Example1
 
 ```python
 >>> from dilithium import Dilithium2
@@ -93,6 +93,14 @@ so you can simply import the NIST level you want to play with:
 
 The above example would also work with the other NIST levels
 `Dilithium3` and `Dilithium5`.
+
+#### Example2
+
+python key_gen.py
+python sign.py
+python verify.py
+
+順番に実行してください。(Please do them in order.)
 
 ### Benchmarks
 
